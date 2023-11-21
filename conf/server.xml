@@ -138,9 +138,8 @@
                resourceName="UserDatabase"/>
       </Realm>
 
-      <Host name="localhost"  appBase="webapps"
-            unpackWARs="true" autoDeploy="true">
-
+<!--      <Host name="localhost"  appBase="webapps" unpackWARs="true" autoDeploy="true">-->
+      <Host name="localhost" appBase="/home/bill/jworkspaces/tomcat/catalina/webapps" unpackWARs="true" autoDeploy="true">
         <!-- SingleSignOn valve, share authentication between web applications
              Documentation at: /docs/config/valve.html -->
         <!--

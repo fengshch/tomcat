@@ -47,3 +47,9 @@ java/org/apache/catalina/startup/catalina.properties
 modules/jdbc-pool/bin
 modules/jdbc-pool/includes
 webapps/docs/jdbc-pool.xml
+.idea
+catalina/bin
+catalina/lib
+catalina/logs
+catalina/temp
+catalina/work
